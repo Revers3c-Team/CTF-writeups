@@ -49,14 +49,16 @@ print("left = \"{}\" or \"{}\" or \"{}\" or \"{}\"".format(m1,m2,m3,m4))
 print("Now use them one by one on the ransomeware after patching it")
 ```
 
-We patch the binary to decrypt the file
-so the main method looks like this
+The last step here is to patch the binary and try the four values we got .. the right value was 2281123928613928259 so we will end up with something like this. 
 
 ```C#
 private static void Main(string[] args)
-		{
-			string contents = cryptography.Aes(Convert.FromBase64String(File.ReadAllText(".\\dsafgasf.txt")), "<m1_then_m2_..>", "ABCDEFGHIJ12", false, true);
-			File.WriteAllText(".\\sdagfsad.txt", contents);
-			File.Delete(".\\dsafgasf.txt");
-		}
+{
+			string flag = cryptography.Aes(Convert.FromBase64String(File.ReadAllText(".\\dsafgasf.txt")), "2281123928613928259", "ABCDEFGHIJ12", false, true);
+			Console.WriteLine("Flag : " + flag);
+}
 ```
+
+![untitled](https://user-images.githubusercontent.com/46635361/51080747-eb287900-16e9-11e9-90a2-967abc8c6088.png)
+
+
