@@ -10,8 +10,9 @@ Disable ASLR & Unpack it
 
 ![picture3](https://user-images.githubusercontent.com/46635361/51079512-fc18c080-16d0-11e9-9c2b-3e1dba69c7a1.png)
 
-using x64dbg you can find that it uses The [IsDebuggerPresent](https://msdn.microsoft.com/en-us/library/windows/desktop/ms680345(v=vs.85).aspx) function to dentermine whenever there is a debugger or not 
-and if there is a debugger a messagebox saying 'This is a third-party compiled AutoIt script.' will showing instead.
+using x64dbg you can find that it uses The [IsDebuggerPresent](https://msdn.microsoft.com/en-us/library/windows/desktop/ms680345(v=vs.85).aspx) function to dentermine whenever there is a debugger or not and if there is a debugger a messagebox saying 'This is a third-party compiled AutoIt script.' will showing instead.
+
+![untitled](https://user-images.githubusercontent.com/46635361/51079617-b4933400-16d2-11e9-8203-0c3641e5a6a6.png)
 
 Here you can find how to detect AutoIt compailed scripts [AutoIt Malware: From Compiled Binary to Plain-Text Script](https://r3mrum.wordpress.com/2017/07/10/autoit-malware-from-compiled-binary-to-plain-text-script/)
 
