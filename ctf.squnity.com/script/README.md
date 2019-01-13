@@ -1,4 +1,4 @@
-#Script 
+#Script
 
 Running the binary will give us this a messagebox showing hex encoded value
 
