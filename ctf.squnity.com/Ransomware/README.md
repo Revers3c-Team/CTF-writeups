@@ -54,8 +54,8 @@ The last step here is to patch the binary and try the four values we got .. the 
 ```C#
 private static void Main(string[] args)
 {
-			string flag = cryptography.Aes(Convert.FromBase64String(File.ReadAllText(".\\dsafgasf.txt")), "2281123928613928259", "ABCDEFGHIJ12", false, true);
-			Console.WriteLine("Flag : " + flag);
+	string flag = cryptography.Aes(Convert.FromBase64String(File.ReadAllText(".\\dsafgasf.txt")), "2281123928613928259", "ABCDEFGHIJ12", false, true);
+	Console.WriteLine("Flag : " + flag);
 }
 ```
 
