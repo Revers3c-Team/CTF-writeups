@@ -8,7 +8,7 @@ and the malware will delete itself at some point using powershell
 
 ![sss](https://user-images.githubusercontent.com/46635361/51080053-312b1000-16dd-11e9-9c29-23f7782f8c9b.png)
 
-now let's get the extracted files ourselfs.. open up your win7 debugging vm and just use any file monitor i use here Moo0 then run the binary.
+now let's get the extracted files ourselfs.. open up your win7 debugging vm and just use any file monitor tool i use here Moo0, then run the binary.
 
 ![s](https://user-images.githubusercontent.com/46635361/51080067-a1399600-16dd-11e9-9c09-9644c2c71c43.png)
 
