@@ -9,7 +9,7 @@ Easy
 # File
 [simple.exe](https://github.com/Revers3c-Team/CTF-writeups/blob/master/CyberTalents/Competitions/Egypt%20Universities%20CTF%20Competition/Good%20Package/simple.exe)
 # Solution
-The file is 32 bit windows binary compiled with the debugging information</br>
+The file is x86 windows binary compiled with its debugging information</br>
 So we load it into IDA</br>
 
 The main function
