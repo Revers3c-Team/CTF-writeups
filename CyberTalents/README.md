@@ -1,1 +1,0 @@
-# CyberTalents ctf writeups
