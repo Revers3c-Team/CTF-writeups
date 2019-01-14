@@ -6,6 +6,8 @@ Medium
 100
 # Description
 ```i am dead in the code find me```
+# File
+[tic](https://github.com/Revers3c-Team/CTF-writeups/blob/master/CyberTalents/Competitions/Egypt%20Universities%20CTF%20Competition/XO/tic?raw=true)
 # Solution
 The binary is a non-stripped x64 linux binary</br>
 So we load it in IDA</br>
