@@ -35,7 +35,7 @@ public static string HexStr(byte[] p)
 		}
 ```
 
-Which just converts a byte array into hex value `'a' ---> '0x61'` (you can use https://dotnetfiddle.net/ to test c# code snippets)</br>
+Which just converts a byte array into hex value `'a' ---> '0x61'` (you can use https://dotnetfiddle.net/ or the interactive c# plugin at dnSpy to test c# code snippets)</br>
 Also we have</br>
 
 ```c#
