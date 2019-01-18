@@ -5,7 +5,7 @@ Easy
 # Points
 50
 # Description
-flag format flag{xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx},only a-z,0-9,_ are allowed. try to find the only flag that makes sense. Note: no special hardware is required to bruteforce https://www.youtube.com/watch?v=hyk46UmJPS4 this may help you coding the solution. DON'T BRUTEFORCE KEY SUBMISSIONS.
+`flag format flag{xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx},only a-z,0-9,_ are allowed. try to find the only flag that makes sense. Note: no special hardware is required to bruteforce https://www.youtube.com/watch?v=hyk46UmJPS4 this may help you coding the solution. DON'T BRUTEFORCE KEY SUBMISSIONS.`
 # File
 [bruteforceme.py](https://raw.githubusercontent.com/Revers3c-Team/CTF-writeups/master/CyberTalents/Competitions/Al-Azhar%20University%20Cybersecurity%20CTF%20Competition/Bruteforce%20Me/bruteforceme.py)
 # Solution
