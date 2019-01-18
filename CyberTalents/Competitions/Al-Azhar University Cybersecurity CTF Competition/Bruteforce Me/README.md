@@ -99,7 +99,7 @@ def get_instance(i=0,c_list=[0] * 23):
     if i == 23:
         if sum(c_list) == 2406:
             string = ''.join([chr(i) for i in c_list])
-            if string.startswith('flag{') and string.endswith("}") and "_is_" in string and "`" not in string and ("l1st" in string or "m0st" in string or "l0st" in string):
+            if string.startswith('flag{') and string.endswith("}") and "_is_" in string and not '^' in string and "`" not in string and ("l1st" in string or "m0st" in string or "l0st" in string):
                 print(string)
         return
     c_list[i] = ll[i]
