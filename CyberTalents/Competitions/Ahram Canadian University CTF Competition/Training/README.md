@@ -5,7 +5,7 @@ Medium
 # Points
 100
 # Description
-training, keep training.
+`training, keep training.`
 # File
 [training](https://github.com/Revers3c-Team/CTF-writeups/blob/master/CyberTalents/Competitions/Ahram%20Canadian%20University%20CTF%20Competition/Training/training)
 # Solution
