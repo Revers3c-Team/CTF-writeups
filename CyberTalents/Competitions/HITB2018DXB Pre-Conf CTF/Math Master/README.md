@@ -90,7 +90,7 @@ b) Both are 0 and in this case we can get `a[0]` and `a[10]`</br>
 To solve this system of equations I used sage math (you may use z3 or sympy)</br>
 
 ```python
-from sage import all_cmdline
+from sage.all import *
 
 _ = var(' '.join([('a%d') % i for i in range(11)]))
 
