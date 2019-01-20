@@ -9,7 +9,7 @@ Decrypt this string `0a0c073c5a55072c117e442b0c60501627614efd`
 # File
 [Encipher.exe](https://github.com/Revers3c-Team/CTF-writeups/raw/master/CyberTalents/Competitions/Al-Azhar%20University%20Cybersecurity%20CTF%20Competition/Encipher/Encipher.exe)
 # Solution
-The file x86 windows binary which will encrypt the input, so let's load it to IDA</br>
+The file is x86 windows binary which will encrypt the input, so let's load it to IDA</br>
 Our target function is `sub_4015C0` and it looks like this</br>
 
 ```c++
