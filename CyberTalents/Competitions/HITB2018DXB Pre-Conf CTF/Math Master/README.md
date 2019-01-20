@@ -87,7 +87,7 @@ The code here is quite simple except for some points</br>
 a) Both are 1 but in this case we cannot get a[10] because it will be indeterminate</br>
 b) Both are 0 and in this case we can get `a[0]` and `a[10]`</br>
 
-To solve this system of equations I used sage math (you may use z3 or sympy)</br>
+To solve this system of equations I used sage math</br>
 
 ```python
 from sage.all import *
@@ -146,6 +146,38 @@ _ = s.check()
 flag = "flag{"
 for i in range(len(a)):
     flag += chr(int(str(s.model()[a[i]])))
+
+flag += "}"
+
+print(flag)
+```
+
+We can also use sympy</br>
+
+```python
+from sympy import *
+from sympy.solvers.solveset import linsolve
+
+for i in range(11): exec("a{0} = symbols('a{0}')".format(i))
+
+s = solve([
+        a10 -82,
+        a0 * a1 - 4004,
+        a1 * a2 - 6032,
+        a2 * a3 - 8352,
+        a3 + a4 - 167,
+        a4 + a5 - 172,
+        a5 + a6 - 141,
+        102 * a6 + 32 * a7 - 13 * a8 - 8700,
+        a0 * a7 * a1 - 460460,
+        a2 * a8 * a3 - 968832,
+        a4 * a9 * a5 - 373065,
+        a2 * a10 + a7 - 9627
+    ], [a0, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10])
+
+flag = "flag{"
+for i in s[0]:
+  flag += chr(int(i))
 
 flag += "}"
 
