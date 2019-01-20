@@ -149,14 +149,17 @@ for _ in range(3):
         check.append(equ)
     check = " and ".join(check)
     exec("""
+solved = False
 for a{0} in range(33,127):
     for a{1} in range(33,127):
         for a{2} in range(33,127):
+            if solved: break
             if {3}:
                 password[{0}] = a{0}
                 password[{1}] = a{1}
                 password[{2}] = a{2}
-                break
+                solved = True
+                
     """.format(ii,3+ii,6+ii,check))
     ii += 1
 print("The password is:"),
