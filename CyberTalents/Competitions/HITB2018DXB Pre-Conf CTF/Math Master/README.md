@@ -156,7 +156,6 @@ We can also use sympy</br>
 
 ```python
 from sympy import *
-from sympy.solvers.solveset import linsolve
 
 for i in range(11): exec("a{0} = symbols('a{0}')".format(i))
 
