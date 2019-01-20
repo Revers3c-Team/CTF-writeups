@@ -137,7 +137,7 @@ for i in range(3):
         equ += " == " + v4
         equs.append(equ)
 
-print("We need to solve these system of equations")
+print("We need to solve this system of equations")
 for equ in equs: print(equ)
 
 print("We solve 3 equations with 3 variables (every variable in range of 33 -- 126) each time")
