@@ -21,7 +21,7 @@ After some thinking, I decided to view the exported functions (View-->Open subvi
 I also searched for it</br>
 `TLS (thread local storage) calls are subroutines that are executed before the entry point .`</br>
 So a malware author may use it to execute some code even before the entry point</br>
-Here we have an anti-debugging method with `IsDebuggerPresent`</br>
+Here we have an anti-debugging method with `IsDebuggerPresent` api call</br>
 If run normally, it will check if the file name itself is `i_got_it` (without extension)</br>
 So I just changed its name to `i_got_it.exe` and executed it</br>
 
