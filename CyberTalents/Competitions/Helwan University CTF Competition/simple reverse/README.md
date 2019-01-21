@@ -9,7 +9,7 @@ Medium
 # File
 [simple_reverse](https://github.com/Revers3c-Team/CTF-writeups/raw/master/CyberTalents/Competitions/Helwan%20University%20CTF%20Competition/simple%20reverse/simple_reverse)
 # Solution
-The file is x64 non-stripped binary, so I loaded it to IDA</br>
+The file is x64 non-stripped linux binary, so I loaded it to IDA</br>
 For the main function we have</br>
 
 ![untitled](https://github.com/Revers3c-Team/CTF-writeups/raw/master/CyberTalents/Competitions/Helwan%20University%20CTF%20Competition/simple%20reverse/img1.PNG)
