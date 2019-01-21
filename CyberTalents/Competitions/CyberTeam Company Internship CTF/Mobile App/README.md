@@ -7,7 +7,7 @@ Medium
 # Description
 Not Available
 # File
-[mobapp.apk](https://github.com/Revers3c-Team/CTF-writeups/blob/master/CyberTalents/Competitions/CyberTeam%20Company%20Internship%20CTF/Mobile%20App/mobapp.apk)
+[mobapp.apk](https://github.com/Revers3c-Team/CTF-writeups/raw/master/CyberTalents/Competitions/CyberTeam%20Company%20Internship%20CTF/Mobile%20App/mobapp.apk)
 # Solution
 I decompiled it with jadx and found the main activity to be</br>
 ```java
