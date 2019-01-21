@@ -7,7 +7,7 @@ Medium
 # Description
 Not Available
 # File
-[a.out](https://github.com/Revers3c-Team/CTF-writeups/blob/master/CyberTalents/Competitions/CyberTeam%20Company%20Internship%20CTF/Say%20my%20Name/a.out)
+[a.out](https://github.com/Revers3c-Team/CTF-writeups/raw/master/CyberTalents/Competitions/Women%20in%20Cybersecurity%20CTF/Say%20my%20Name/a.out)
 # Solution
 The file is x86 non-stripped linux binary</br>
 Let's load it into IDA</br>
