@@ -72,7 +72,7 @@ Because we know the length of the username, we can brute for the length of the s
 >>>
 ```
 
-Now our target is to make `sub_400746(serial)` returns `4dminUser31337`</br>
+Now our target is to make `sub_400746(serial)` return `4dminUser31337`</br>
 I also decompiled it to be</br>
 
 ```c++
@@ -120,7 +120,7 @@ Which does this</br>
 a) Make sure the third char is `+` or `-`</br>
 b) `v2` will be 0 when the third char is `-` and 1 if it's `+`</br>
 c) Puts the first and the second char at the two-char-chunk `nptr`</br>
-d) Decode `nptr` as hex (`strtol(nptr,0,16)` in c looks like `int(nptr,16)` in python), multiply it by 2 and add the result to `v2`<16>
+d) Decode `nptr` as hex (`strtol(nptr,0,16)` in c looks like `int(nptr,16)` in python), multiply it by 2 and add the result to `v2`</br>
 c) The result will be appended to `v6` that will returned after that</br>
 
 For this we know that the output should be `4dminUser31337`</br>
