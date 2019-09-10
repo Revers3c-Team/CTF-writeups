@@ -1,0 +1,648 @@
+index : 0
+mov regA,1
+index : 3
+mov regB,204
+index : 6
+janz regB
+regB = 204
+Jump was TAKEN!
+index : 204
+mov regA,1
+index : 207
+mov regB,67
+index : 210
+add regB,2
+index : 213
+ syscall putchar()
+  text char printed : E
+index : 214
+mov regB,145
+index : 217
+not regB
+index : 218
+ syscall putchar()
+  text char printed : n
+index : 219
+mov regB,139
+index : 222
+not regB
+index : 223
+ syscall putchar()
+  text char printed : t
+index : 224
+mov regB,95
+index : 227
+add regB,6
+index : 230
+ syscall putchar()
+  text char printed : e
+index : 231
+mov regB,141
+index : 234
+not regB
+index : 235
+ syscall putchar()
+  text char printed : r
+index : 236
+mov regB,223
+index : 239
+not regB
+index : 240
+ syscall putchar()
+  text char printed :  
+index : 241
+mov regB,143
+index : 244
+not regB
+index : 245
+ syscall putchar()
+  text char printed : p
+index : 246
+mov regB,20
+index : 249
+add regB,77
+index : 252
+ syscall putchar()
+  text char printed : a
+index : 253
+mov regB,45
+index : 256
+add regB,70
+index : 259
+ syscall putchar()
+  text char printed : s
+index : 260
+mov regB,32
+index : 263
+add regB,83
+index : 266
+ syscall putchar()
+  text char printed : s
+index : 267
+mov regB,70
+index : 270
+add regB,49
+index : 273
+ syscall putchar()
+  text char printed : w
+index : 274
+mov regB,79
+index : 277
+add regB,32
+index : 280
+ syscall putchar()
+  text char printed : o
+index : 281
+mov regB,141
+index : 284
+not regB
+index : 285
+ syscall putchar()
+  text char printed : r
+index : 286
+mov regB,155
+index : 289
+not regB
+index : 290
+ syscall putchar()
+  text char printed : d
+index : 291
+mov regB,197
+index : 294
+not regB
+index : 295
+ syscall putchar()
+  text char printed : :
+index : 296
+mov regB,223
+index : 299
+not regB
+index : 300
+ syscall putchar()
+  text char printed :  
+index : 301
+mov regD,0
+index : 304
+mov regA,0
+index : 307
+ syscall getchar()
+ sent char :0 index : 0
+index : 308
+mov regC,65466
+index : 311
+add regA,regC
+index : 312
+add regD,regA
+index : 313
+mov regA,0
+index : 316
+ syscall getchar()
+ sent char :1 index : 1
+index : 317
+mul regA,83
+index : 320
+mov regC,24
+index : 323
+add regA,regC
+index : 324
+add regA,59204
+index : 327
+add regD,regA
+index : 328
+mov regA,0
+index : 331
+ syscall getchar()
+ sent char :2 index : 2
+index : 332
+mul regA,82
+index : 335
+mov regC,75
+index : 338
+add regA,regC
+index : 339
+add regA,60131
+index : 342
+add regD,regA
+index : 343
+mov regA,0
+index : 346
+ syscall getchar()
+ sent char :3 index : 3
+index : 347
+mov regC,65465
+index : 350
+add regA,regC
+index : 351
+add regD,regA
+index : 352
+mov regA,0
+index : 355
+ syscall getchar()
+ sent char :4 index : 4
+index : 356
+mul regA,33
+index : 359
+mov regC,45
+index : 362
+add regA,regC
+index : 363
+add regA,61432
+index : 366
+add regD,regA
+index : 367
+mov regA,0
+index : 370
+ syscall getchar()
+ sent char :5 index : 5
+index : 371
+mov regC,116
+index : 374
+add regC,69
+index : 377
+add regA,regC
+index : 378
+not regA
+index : 379
+add regA,272
+index : 382
+add regD,regA
+index : 383
+mov regA,0
+index : 386
+ syscall getchar()
+ sent char :6 index : 6
+index : 387
+mul regA,60
+index : 390
+mov regC,89
+index : 393
+add regA,regC
+index : 394
+add regA,60827
+index : 397
+add regD,regA
+index : 398
+mov regA,0
+index : 401
+ syscall getchar()
+ sent char :7 index : 7
+index : 402
+mul regA,48
+index : 405
+mov regC,59
+index : 408
+add regA,regC
+index : 409
+add regA,60917
+index : 412
+add regD,regA
+index : 413
+mov regA,0
+index : 416
+ syscall getchar()
+ sent char :8 index : 8
+index : 417
+mul regA,9
+index : 420
+mov regC,33
+index : 423
+add regA,regC
+index : 424
+add regA,64918
+index : 427
+add regD,regA
+index : 428
+mov regA,0
+index : 431
+ syscall getchar()
+ sent char :9 index : 9
+index : 432
+mov regC,65426
+index : 435
+add regA,regC
+index : 436
+add regD,regA
+index : 437
+mov regA,0
+index : 440
+ syscall getchar()
+ sent char :0 index : 10
+index : 441
+mov regC,65439
+index : 444
+add regA,regC
+index : 445
+add regD,regA
+index : 446
+mov regA,0
+index : 449
+ syscall getchar()
+ sent char :1 index : 11
+index : 450
+mov regC,106
+index : 453
+add regC,56
+index : 456
+add regA,regC
+index : 457
+not regA
+index : 458
+add regA,271
+index : 461
+add regD,regA
+index : 462
+mov regA,0
+index : 465
+ syscall getchar()
+ sent char :2 index : 12
+index : 466
+mov regC,65415
+index : 469
+add regA,regC
+index : 470
+add regD,regA
+index : 471
+mov regA,0
+index : 474
+ syscall getchar()
+ sent char :3 index : 13
+index : 475
+mov regC,65421
+index : 478
+add regA,regC
+index : 479
+add regD,regA
+index : 480
+mov regA,0
+index : 483
+ syscall getchar()
+ sent char :4 index : 14
+index : 484
+mov regC,56
+index : 487
+add regC,79
+index : 490
+add regA,regC
+index : 491
+not regA
+index : 492
+add regA,241
+index : 495
+add regD,regA
+index : 496
+mov regA,0
+index : 499
+ syscall getchar()
+ sent char :5 index : 15
+index : 500
+mov regC,96
+index : 503
+add regC,97
+index : 506
+add regA,regC
+index : 507
+not regA
+index : 508
+add regA,309
+index : 511
+add regD,regA
+index : 512
+mov regA,0
+index : 515
+ syscall getchar()
+ sent char :6 index : 16
+index : 516
+mov regC,91
+index : 519
+add regC,94
+index : 522
+add regA,regC
+index : 523
+not regA
+index : 524
+add regA,281
+index : 527
+add regD,regA
+index : 528
+mov regA,0
+index : 531
+ syscall getchar()
+ sent char :7 index : 17
+index : 532
+mov regC,72
+index : 535
+add regC,50
+index : 538
+add regA,regC
+index : 539
+not regA
+index : 540
+add regA,228
+index : 543
+add regD,regA
+index : 544
+mov regA,0
+index : 547
+ syscall getchar()
+ sent char :8 index : 18
+index : 548
+mov regC,65421
+index : 551
+add regA,regC
+index : 552
+add regD,regA
+index : 553
+mov regA,0
+index : 556
+ syscall getchar()
+ sent char :9 index : 19
+index : 557
+mov regC,40
+index : 560
+add regC,88
+index : 563
+add regA,regC
+index : 564
+not regA
+index : 565
+add regA,224
+index : 568
+add regD,regA
+index : 569
+mov regA,0
+index : 572
+ syscall getchar()
+ sent char :0 index : 20
+index : 573
+mov regC,80
+index : 576
+add regC,116
+index : 579
+add regA,regC
+index : 580
+not regA
+index : 581
+add regA,294
+index : 584
+add regD,regA
+index : 585
+mov regA,0
+index : 588
+ syscall getchar()
+ sent char :1 index : 21
+index : 589
+mov regC,38
+index : 592
+add regC,62
+index : 595
+add regA,regC
+index : 596
+not regA
+index : 597
+add regA,210
+index : 600
+add regD,regA
+index : 601
+mov regA,0
+index : 604
+ syscall getchar()
+ sent char :2 index : 22
+index : 605
+mov regC,94
+index : 608
+add regC,106
+index : 611
+add regA,regC
+index : 612
+not regA
+index : 613
+add regA,298
+index : 616
+add regD,regA
+index : 617
+mov regA,0
+index : 620
+ syscall getchar()
+ sent char :3 index : 23
+index : 621
+mov regC,109
+index : 624
+add regC,42
+index : 627
+add regA,regC
+index : 628
+not regA
+index : 629
+add regA,274
+index : 632
+add regD,regA
+index : 633
+mov regA,0
+index : 636
+ syscall getchar()
+ sent char :4 index : 24
+index : 637
+mov regC,65431
+index : 640
+add regA,regC
+index : 641
+add regD,regA
+index : 642
+mov regA,0
+index : 645
+ syscall getchar()
+ sent char :5 index : 25
+index : 646
+mov regC,65426
+index : 649
+add regA,regC
+index : 650
+add regD,regA
+index : 651
+mov regA,0
+index : 654
+ syscall getchar()
+ sent char :6 index : 26
+index : 655
+mov regC,65433
+index : 658
+add regA,regC
+index : 659
+add regD,regA
+index : 660
+mov regA,0
+index : 663
+ syscall getchar()
+ sent char :7 index : 27
+index : 664
+mul regA,39
+index : 667
+mov regC,64
+index : 670
+add regA,regC
+index : 671
+add regA,60597
+index : 674
+add regD,regA
+index : 675
+mov regA,regD
+index : 676
+mov regB,103
+index : 679
+janz regB
+regB = 103
+Jump was TAKEN!
+index : 103
+mov regA,1
+index : 106
+mov regB,25
+index : 109
+add regB,62
+index : 112
+ syscall putchar()
+  text char printed : W
+index : 113
+mov regB,141
+index : 116
+not regB
+index : 117
+ syscall putchar()
+  text char printed : r
+index : 118
+mov regB,90
+index : 121
+add regB,21
+index : 124
+ syscall putchar()
+  text char printed : o
+index : 125
+mov regB,145
+index : 128
+not regB
+index : 129
+ syscall putchar()
+  text char printed : n
+index : 130
+mov regB,24
+index : 133
+add regB,79
+index : 136
+ syscall putchar()
+  text char printed : g
+index : 137
+mov regB,223
+index : 140
+not regB
+index : 141
+ syscall putchar()
+  text char printed :  
+index : 142
+mov regB,143
+index : 145
+not regB
+index : 146
+ syscall putchar()
+  text char printed : p
+index : 147
+mov regB,249
+index : 150
+add regB,104
+index : 153
+ syscall putchar()
+  text char printed : a
+index : 154
+mov regB,93
+index : 157
+add regB,22
+index : 160
+ syscall putchar()
+  text char printed : s
+index : 161
+mov regB,33
+index : 164
+add regB,82
+index : 167
+ syscall putchar()
+  text char printed : s
+index : 168
+mov regB,101
+index : 171
+add regB,18
+index : 174
+ syscall putchar()
+  text char printed : w
+index : 175
+mov regB,252
+index : 178
+add regB,115
+index : 181
+ syscall putchar()
+  text char printed : o
+index : 182
+mov regB,141
+index : 185
+not regB
+index : 186
+ syscall putchar()
+  text char printed : r
+index : 187
+mov regB,155
+index : 190
+not regB
+index : 191
+ syscall putchar()
+  text char printed : d
+index : 192
+mov regB,245
+index : 195
+not regB
+index : 196
+ syscall putchar()
+  text char printed : 
+
+index : 197
+mov regA,2
+index : 200
+mov regB,1
+index : 203
+ syscall exit() 
